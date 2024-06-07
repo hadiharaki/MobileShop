@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Mobile Website Design</title>
+	<link rel="stylesheet" href="contact style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+ 	</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/project.png"></a>
+		<div class="nav-links" id="navLinks">
+	<i class="fa-solid fa-xmark" onClick="hideMenu()"></i>
+		<ul>
+	<li><a href="index.html">HOME</a></li>
+	<li><a href="about.html">ABOUT US</a></li>
+	<li><a href="phones.html">PHONES</a></li>
+	<li><a href="#">ACCESSORIES</a>
+		<div class="sub-menu-1">
+		<ul>
+		<li><a href="covers.html">COVERS</a></li>
+		<li><a href="headsets.html">HEADSETS</a></li>	
+		</ul>
+			</div>
+			</li>
+	<li class="active"><a href="contact us.html">CONTACT US</a></li>		
+			</ul>
+		</div>
+<i class="fa-solid fa-bars" onClick="showMenu()"></i>
+		</nav>
+<h1>Contact Us</h1>
+	</section>
+	<!-----contact us content----->
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.8237784346757!2d35.48284671520818!3d33.79104857447907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14c46272a6f0796b!2zMzPCsDQ3JzI3LjkiTiAzNcKwMjknMDYuMSJF!5e0!3m2!1sen!2slb!4v1670516391267!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+	</section>
+	<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+		<div>
+		<i class="fa-solid fa-house"></i>
+			<span>
+			<h5>Road, Building</h5>
+				<p>Akram Radwan, Aramoun</p>
+			</span>
+			</div>
+			<div>
+		<i class="fa-solid fa-phone"></i>
+			<span>
+			<h5>+961/70767069</h5>
+				<p>Monday to saturday, 9AM to 9PM</p>
+			</span>
+			</div>
+			<div>
+		<i class="fa-solid fa-envelope"></i>
+			<span>
+			<h5>info@company.com</h5>
+				<p>Email us</p>
+			</span>
+			</div>
+		</div>
+		<div class="contact-col">
+		<form action="">
+			<input type="text" placeholder="Enter Your name" required>
+			<input type="email" placeholder="Enter Email Address" required>
+			<input type="text" placeholder="Enter Your subject" required>
+			<textarea rows="8" placeholder="Message" required></textarea>
+			<button type="submit" class="hero-btn red-btn">Send Message</button>
+			</form>
+		</div>
+		</div>
+	</section>
+	<!------footer----->
+	<section class="footer">
+	<h4>ABOUT US</h4>
+		<p>You can find us on all social media apps</p>
+		<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-instagram"></i>
+		</div>
+		<p>Made with<i class="fa-regular fa-heart"></i> by Hadi Harake and Ahmed Armoush</p>
+	</section>
+	<!------JavaScript for Toggle Menu--------->
+	<script>
+	
+	var navLinks=document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right= "0";
+		}
+		function hideMenu(){
+			navLinks.style.right= "-200px";
+		}
+	</script>
+	
+	</body>
+
+
+
+
+
+
+
+</html>

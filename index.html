@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Mobile Website Design</title>
+	<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+ 	</head>
+<body>
+	<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/project.png"></a>
+		<div class="nav-links" id="navLinks">
+	<i class="fa-solid fa-xmark" onClick="hideMenu()"></i>
+		<ul>
+	<li class="active"><a href="index.html">HOME</a></li>
+	<li><a href="about.html">ABOUT US</a></li>
+	<li><a href="phones.html">PHONES</a></li>
+	<li><a href="#">ACCESSORIES</a>
+		<div class="sub-menu-1">
+		<ul>
+		<li><a href="covers.html">COVERS</a></li>
+		<li><a href="headsets.html">HEADSETS</a></li>	
+		</ul>
+			</div>
+			</li>
+	<li><a href="contact us.html">CONTACT US</a></li>		
+			</ul>
+		</div>
+<i class="fa-solid fa-bars" onClick="showMenu()"></i>
+		</nav>
+<div class="text-box">
+		<h1>The Mobile Shop With The Largest Collection</h1>
+	<p>In our mobile shop you can find all accessories you need for your phone.<br>You can even choose a new phone from our huge collection</p>
+	<a href="about.html" class="hero-btn">Visit Us To Know More</a>
+		</div>	
+	
+	
+	</section>
+	<!------Phones--------->
+	<section class="PHONES">
+	<h1>Phones We Sell</h1>
+		<p>H and A Company's stock include huge number of phones of all brands </p>
+		<div class="row">
+		<div class="PHONES-col">
+			<h3>APPLE</h3>
+			<p>iphone x, iphone 11, iphone 12(pro and pro max), iphone13</p>
+			
+			</div>
+			<div class="PHONES-col">
+			<h3>SAMSUNG</h3>
+			<p>All A , Note , and S series phones</p>
+			
+			</div>
+			<div class="PHONES-col">
+			<h3>HUAWEI</h3>
+			<p>NOVA, Y, ,MATE, P, and G series phones</p>
+			
+			</div>
+		</div>
+	</section>
+	<!-----ACCESSORIES----->
+	<section class="ACCESSORIES">
+	<h1>Accessories we offer</h1>
+		<p>Same as phones our company offers accessories to make your phone looks cooler</p>
+		<div class="row">
+		<div class="ACCESSORIES-col">
+			<img src="images/cover 1.png">
+		<div class="layer">
+			<h3>COVERS</h3>
+			</div>
+			</div>
+			<div class="ACCESSORIES-col">
+			<img src="images/HEADSET.png">
+		<div class="layer">
+			<h3>HEADSETS</h3>
+			</div>
+			</div>
+			<div class="ACCESSORIES-col">
+			<img src="images/EARPODS.png">
+		<div class="layer">
+			<h3>EARPODS</h3>
+			</div>
+			</div>
+		</div>
+	</section>
+	<!------Call To Action------>
+	<section class="cta">
+	<h1>Order Various Phones And Accessories<br> Anywhere From The World</h1>
+	<a href="contact us.html" class="hero-btn">CONTACT US</a>
+	</section>
+	<!------footer----->
+	<section class="footer">
+	<h4>ABOUT US</h4>
+		<p>You can find us on all social media apps</p>
+		<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-instagram"></i>
+		</div>
+		<p>Made with<i class="fa-regular fa-heart"></i> by Hadi Harake and Ahmed Armoush</p>
+	</section>
+	<!------JavaScript for Toggle Menu--------->
+	<script>
+	
+	var navLinks=document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right= "0";
+		}
+		function hideMenu(){
+			navLinks.style.right= "-200px";
+		}
+	</script>
+	
+	</body>
+
+
+
+
+
+
+
+</html>
